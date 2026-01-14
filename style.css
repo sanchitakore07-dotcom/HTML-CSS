@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#header{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo{
+    height: 6vh;
+    align-items: center;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* invalid value fixed */
+}
+
+.text{
+    color: rgb(2, 25, 48);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: smaller;
+}
+
+.text:hover{
+    color: #70f5e1;
+}
+
+#fakeheader{
+    height: 10vh;
+    width: 100vw;
+}
+
+#contactdetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11px;
+    text-align: center;
+    font-weight: normal;
+    color: rgb(5, 29, 75);
+}
+
+.icons{
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icons:hover{
+    background-color: #17a4b7;
+}
+
+#logIn{
+    font-weight: bold;
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#logIn:hover{
+    background-color: #17a4b7;
+}
+
+#try{
+    display: flex;
+    margin: 40px;
+    padding: 10px;
+    background-color: rgb(42, 208, 42);
+    color: white;
+}
+
+#try:hover{
+    background-color: rgb(7, 124, 7);
+}
+
+#page1{
+    height: 90vh;
+    width: 100vw;
+    background-color: white;
+}
+
+#str1{
+    width: 100%;
+    height: 8%;
+    background-color: #04175f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+}
+
+#str1 p{
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#content{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+}
+
+#box1{
+    height: 90%;
+    width: 47%;
+    margin: 10px;
+    background-color: white;
+}
+
+#box1 h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: #033063;
+    font-size: 60px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+#box1 p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    font-size: x-large;
+    color: #064157;
+    margin: 40px;
+    margin-top: 30px;
+}
+
+#box2{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(111, 215, 241);
+    margin-left: 20px;
+}
+
+#tagline{
+    width: 100%;
+    height: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #08286d;
+}
+
+#tagline h1{
+    font-weight: 500;
+}
+
+#btn{
+    display: flex;
+}
+
+#btn1{
+    width: 22%;
+    padding: 10px 20px;
+    background-color: #16366c;
+    color: white;
+    display: flex;
+    margin-left: 40px;
+    justify-content: center;
+}
+
+#btn1:hover{
+    background-color: #96e0f2;
+    color: #055978;
+}
+
+#btn2{
+    width: 22%;
+    padding: 10px 20px;
+    color: rgb(181, 230, 248);
+    background-color: white;
+    border: 1px solid #00080a;
+    display: flex;
+    margin-left: 40px;
+    justify-content: center;
+}
+
+#btn2:hover{
+    background-color: lightblue;
+    color: #16366c;
+}
+
+#page2{
+    height: 90vh;
+    width: 100vw;
+    background-color: #ffffff;
+}
